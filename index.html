@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FC/TRADE Club Connector: Privacy Policy</title>
+<style>
+  body{margin:0;background:#fff;color:#1d1b26;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 20px 64px}
+  h1{font-size:1.9rem;margin:0 0 4px} h2{font-size:1.2rem;margin:32px 0 8px}
+  .muted{color:#5f5b6e;font-size:.9rem} ul{padding-left:1.2rem} li{margin:4px 0}
+  .todo{border:2px solid #b45309;background:#fffbeb;padding:10px 12px;border-radius:8px}
+</style>
+</head>
+<body>
+<main>
+<h1>FC/TRADE Club Connector: Privacy Policy</h1>
+<p class="muted">Applies to the FC/TRADE Club Connector browser extension (version 1.2.0 and later) and the FC/TRADE account it sends data to. Last updated: 5 November 2026.</p>
+
+<h2>What the extension does</h2>
+<p>The extension links the EA SPORTS FC Web App you have open in Chrome to your own FC/TRADE account. It is read-only: it never clicks, buys, sells, lists, bids or signs in for you, and it never reads your EA password, cookies or session tokens. When you sync, it reads the data the Web App already holds and asks the Web App's own club search for your player list, one page at a time (the same read-only request the Club screen makes), then sends the result to your FC/TRADE account.</p>
+
+<h2>Data the extension reads and sends</h2>
+<ul>
+  <li><b>Club contents</b> (when you press Sync My Club, or automatically if you turn on automatic sync): card ids, ratings, whether each card is tradable, how many copies you hold, and whether they are in your club or storage.</li>
+  <li><b>Your active squad</b>, read together with the club: the formation, the card in each starting position, and your substitutes.</li>
+  <li><b>Completed sales and purchases</b> shown on your Transfer List (Sold and Won Items): player name, rating, position, version, price, quantity and time. They go to your FC/TRADE inbox for you to review.</li>
+  <li><b>Troubleshooting summaries</b>: which sections of the EA page were visible, how many rows could be read or not read, the result of the last sync, counts of waiting items, and the extension version. These contain no EA login details and no personal information.</li>
+</ul>
+<p>All of this is sent only to the FC/TRADE site you connected, over HTTPS, and is tied to your FC/TRADE account.</p>
+
+<h2>Data the extension does not collect</h2>
+<p>EA passwords, cookies or session tokens; your EA account details; your browsing history; anything from websites other than the EA FC Web App and FC/TRADE; keystrokes or clicks; location; health or payment information.</p>
+
+<h2>Data stored in your browser</h2>
+<p>The extension keeps the following in Chrome's local extension storage on your device: the connection credential described below, the FC/TRADE address you connected to, your automatic-sync setting, the result and time of the last sync, and a small queue of detected sales that have not been delivered yet (so they are not lost if the browser closes). Nothing is stored in cookies and nothing is synced to other devices.</p>
+
+<h2>How the connection works</h2>
+<p>When you press Connect on FC/TRADE, the site gives the extension a one-time code and the extension exchanges it for its own random credential. That credential is not an EA credential. It is kept only in the extension's local storage and can only call the connector's own routes on FC/TRADE; it cannot read or change anything else in your account. FC/TRADE stores only a hash of it.</p>
+
+<h2>Synchronization and changes to your FC/TRADE data</h2>
+<p>A sync that could not read your whole club only adds cards or raises counts. Only after a verified complete read of your club does FC/TRADE update copies that have left your club, and even then a large change is held back instead of applied. Costs, notes and dates you entered yourself are kept. Your active squad is saved as a separate Current Squad and never replaces your other saved squads. If you edited that Current Squad, FC/TRADE asks before replacing it.</p>
+
+<h2>How data is used and kept</h2>
+<p>Data is used only to show you your own club, squads, journal and stocking inside FC/TRADE. It is not sold, not shared with third parties, not used for advertising or for purposes unrelated to the extension's single purpose, and not used to decide creditworthiness or lending. It stays in your FC/TRADE account until you delete it or delete your account.</p>
+
+<h2>Your controls</h2>
+<ul>
+  <li>Automatic sync is off by default. Turn it on or off in the Sync My Club window or the extension popup.</li>
+  <li>Disconnect from the extension popup, or revoke the browser in FC/TRADE Settings. Either stops the extension immediately. Items not yet uploaded are discarded when you disconnect.</li>
+  <li>Remove the extension from Chrome to delete everything it stored in your browser.</li>
+  <li>Delete imported cards, squads and journal entries inside FC/TRADE, or delete your FC/TRADE account to remove the data held there.</li>
+</ul>
+
+<h2>Not affiliated with EA</h2>
+<p>FC/TRADE and this extension are not affiliated with, endorsed by or approved by Electronic Arts. Browser extensions that interact with the EA Web App are used at your own risk.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the extension's data handling changes, this page will be updated and the date above changed.</p>
+
+<h2>Contact</h2>
+<p>Support email: gaithmtt@gmail.com</p></main>
+</body>
+</html>
